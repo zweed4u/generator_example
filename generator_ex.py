@@ -4,7 +4,14 @@ Credit to ThatJuanGuy on se7en sins for original redbull script
 
 xxx-xxx-xxx format
 Uses the valid format for |3ung1e codes
-TODO: further investigation needed - does not always produce working tokens
+TODO: further investigation needed,
+	Automated implementation:
+		https://www.bungie.net/Platform/Tokens/ClaimAndApplyToken/0/
+		headers={} #include login cookie or post xbl/psn credentials in setup
+		params={'lc':'en', 'fmt':'true', 'lcin':'true'}
+		json={<valid_code_here>}
+	does not always produce working tokens
+Can/Will result in token throttling 
 Check positional substr validation
 '''
 from random import sample, shuffle, randint
