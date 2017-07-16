@@ -47,7 +47,8 @@ valid_codes = [
 'K9M-6M3-CVT',     #C K M T V 3 6 9
 
 'J99-H4J-DFT',     #D F H J T 4 9
-'HD4-P43-RXP',      #D G H P R X 3 4
+'HD4-P43-RXP',     #D G H P R X 3 4
+'JTX-YD3-9TX',     #D J X T Y 3 9
 'PKP-HPX-RD3',     #D H K P R X 3
 'YD4-YYN-DHY',     #D H N Y 4
 '6K6-V4D-VK6',     #D K V 4 6
