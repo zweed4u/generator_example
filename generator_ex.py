@@ -16,7 +16,7 @@ Check positional substr validation
 '''
 from random import sample, shuffle, randint
 from itertools import repeat
-
+invalids_chars = ['B','E','8','I','1','O','Q','0','S','5','U','W','Z','2'] # grabbed from https://www.bungie.net/Scripts/bungienet/coderedemption/coderedemption.js
 valid_codes = [
 	'9GC-F4L-DJA',     #A C D F G J L 4 9
 	'VMC-JF6-AJJ',     #A C F J M V 6
@@ -83,7 +83,8 @@ letters = ['A','C','D','F','G','H','J','K','L','M','N','P','R','T','V','X','Y'] 
 
 for code in valid_codes: # ensures that previous codes are valid, this is redundant in that conditions were originally derived form the list but helps with future code additions/requirements 
 	for char in code.replace('-',''):
-		assert char in letters or char in numbers, "{0} has a '{1}' but is not in the constraints list".format(code, char)
+		assert char in letters or char in numbers, "{0} has a '{1}' in it but {0} is not in the valid characters list".format(code, char)
+		assert char not in invalids_chars, "{0} has a '{1}' in it but '{1}' is in the invalid characters list".format(code,char)
 
 for i in repeat(None, 5): #(None, <How many to be generated>)
 	num_of_numbers_in_str = randint(0,9)
