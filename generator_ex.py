@@ -10,8 +10,8 @@ TODO: further investigation needed,
 		headers={} #include login cookie or post xbl/psn credentials in setup
 		params={'lc':'en', 'fmt':'true', 'lcin':'true'}
 		json={<valid_code_here>}
-	does not always produce working tokens
-Can/Will result in token throttling 
+Does not always produce working tokens
+Can/Will result in token throttling - with multiple failed attempts - not ip/cookie based - your account
 Check positional substr validation
 '''
 from random import sample, shuffle, randint
@@ -48,6 +48,7 @@ valid_codes = [
 	#XCG-LN8-PLF,      #C F G L N P X 8  invalid - no 8 (4+4)
 	'C6X-CFR-K7M',     #C F K M R X 6 7
 	'9VC-PY6-FH3',     #C F H P V Y 3 6 9
+	'FTV-XX4-CM6',     #C F M T V X 4 6
 	'MCY-FVM-YC4',     #C F M V Y 4
 	'R96-H3L-HC6',     #C H L R 3 6 9
 	'M3J-VMC-9L4',     #C J L M V 3 4 9
