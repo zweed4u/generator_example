@@ -27,50 +27,59 @@ for i in repeat(None, 5): #(None, <How many to be generated>)
 	print()
 
 '''
-GHC-NJM-T7A.     A C G H J M N T 7
-YD4-YYN-DHY.     D H N Y 4
-FAM-MYJ-XTG.     A F G J M T X Y
-7PX-JLM-74R.     J L M P R X 4 7 
-6FY-L7A-FRX.     A F L R X Y 6 7 
-G7T-FNV-7NR.     F G N R T V 7
-VH7-JKD-7CH.     C D H J K V 7
-JNK-9NL-HMJ.     H J K L M N 9
-743-DC9-4FK.     C D F K 3 4 7 9
-K9M-6M3-CVT.     C K M T V 3 6 9
-J7P-7RG-LPX.     G J L P R X 7
-MTT-AA4-RGY.     A G M R T Y 4
-MCY-FVM-YC4.     C F M V Y 4
-GDL-JVY-NA7.     A D G J L N V Y 7 
-FTF-L73-TYM.     F L M T Y 3 7
-MHC-NDT-RFR.     C D F H M N R T
-CFJ-AYC-TRY.     A C F J R T Y
-79Y-VJF-NF3.     F J N V Y 3 7 9
-J99-H4J-DFT.     D F H J T 4 9
-ALL-9LJ-N94.     A J L N 4 9
-76A-JKK-9DY.     A D J K Y 6 7 9
 9GC-F4L-DJA.     A C D F G J L 4 9
-XCG-LN8-PLF.     C F G L N P X 8  invalid - no 8 (4+4)
-7A4-VM3-K67.     A K M V 3 4 6 7
-PKP-HPX-RD3.     D H K P R X 3
-9R3-RGA-G34.     A G R 3 4 9
-GAN-LYJ-TJG.     A G J L N T Y
-LM4-6AM-RKV.     A K L M R V 4 6
-R6T-G33-Y4R.     G R T Y 3 4 6
-HD4-P43-RXP      D G H P R X 3 4
-Y43-YKR-KVV.     K R V Y 3 4
-MPD-CHC-TKV.     C D H K M P T V
-R96-H3L-HC6.     C H L R 3 6 9
+VMC-JF6-AJJ.     A C F J M V 6
+CFJ-AYC-TRY.     A C F J R T Y
+GHC-NJM-T7A.     A C G H J M N T 7
 RHG-ACX-NJR.     A C G H J N R X
-9VC-PY6-FH3.     C F H P V Y 3 6 9
-VN7-V6L-AL7.     A L N V 6 7
-6K6-V4D-VK6.     D K V 4 6
-PAR-HKA-HRX.     A H K P R X
-FFP-FXG-9L4.     F G L P X 4 9
-AMN-TPJ-VHV.     A H J M N P T V
-3TH-TN9-M4R.     H M N R T 3 4 9
 LLA-XPY-3RC      A C L P R X Y 3
 AGJ-6ND-F6P.     A D F G J N P 6
-M3J-VMC-9L4.     C J L M V 3 4 9
+GDL-JVY-NA7.     A D G J L N V Y 7 
+76A-JKK-9DY.     A D J K Y 6 7 9
+FAM-MYJ-XTG.     A F G J M T X Y
+6FY-L7A-FRX.     A F L R X Y 6 7 
+GAN-LYJ-TJG.     A G J L N T Y
+MTT-AA4-RGY.     A G M R T Y 4
+9R3-RGA-G34.     A G R 3 4 9
+AMN-TPJ-VHV.     A H J M N P T V
+PAR-HKA-HRX.     A H K P R X
+ALL-9LJ-N94.     A J L N 4 9
+LM4-6AM-RKV.     A K L M R V 4 6
+7A4-VM3-K67.     A K M V 3 4 6 7
+VN7-V6L-AL7.     A L N V 6 7
+
+MHC-NDT-RFR.     C D F H M N R T
+743-DC9-4FK.     C D F K 3 4 7 9
 3XR-FN6-DTC.     C D F N X R 3 6
+MPD-CHC-TKV.     C D H K M P T V
+VH7-JKD-7CH.     C D H J K V 7
+7T7-VXN-LDC.     C D L N T V X 7
+XCG-LN8-PLF.     C F G L N P X 8  invalid - no 8 (4+4)
+9VC-PY6-FH3.     C F H P V Y 3 6 9
+MCY-FVM-YC4.     C F M V Y 4
+R96-H3L-HC6.     C H L R 3 6 9
+M3J-VMC-9L4.     C J L M V 3 4 9
+K9M-6M3-CVT.     C K M T V 3 6 9
+
+J99-H4J-DFT.     D F H J T 4 9
+HD4-P43-RXP      D G H P R X 3 4
+PKP-HPX-RD3.     D H K P R X 3
+YD4-YYN-DHY.     D H N Y 4
+6K6-V4D-VK6.     D K V 4 6
+
 NFN-LVH-4RG.     F G H L N V R 4
+FFP-FXG-9L4.     F G L P X 4 9
+G7T-FNV-7NR.     F G N R T V 7
+79Y-VJF-NF3.     F J N V Y 3 7 9
+FTF-L73-TYM.     F L M T Y 3 7
+
+J7P-7RG-LPX.     G J L P R X 7
+R6T-G33-Y4R.     G R T Y 3 4 6
+
+JNK-9NL-HMJ.     H J K L M N 9
+3TH-TN9-M4R.     H M N R T 3 4 9
+
+7PX-JLM-74R.     J L M P R X 4 7
+
+Y43-YKR-KVV.     K R V Y 3 4
 '''
