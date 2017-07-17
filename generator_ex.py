@@ -23,11 +23,15 @@ valid_codes = [
 	'CFJ-AYC-TRY',     #A C F J R T Y
 	'GHC-NJM-T7A',     #A C G H J M N T 7
 	'RHG-ACX-NJR',     #A C G H J N R X
+	'JKC-AGX-7JK',     #A C G J K X 7
 	'LLA-XPY-3RC',     #A C L P R X Y 3
 	'AGJ-6ND-F6P',     #A D F G J N P 6
 	'GDL-JVY-NA7',     #A D G J L N V Y 7 
 	'76A-JKK-9DY',     #A D J K Y 6 7 9
+	'7DL-9TN-A7V',     #A D L N T V 7 9
 	'FAM-MYJ-XTG',     #A F G J M T X Y
+	'7TH-VFA-LN6',     #A F H L N T V 6 7
+	'AMP-TTM-LAF',     #A F L M P T
 	'6FY-L7A-FRX',     #A F L R X Y 6 7 
 	'GAN-LYJ-TJG',     #A G J L N T Y
 	'MTT-AA4-RGY',     #A G M R T Y 4
@@ -37,6 +41,7 @@ valid_codes = [
 	'ALL-9LJ-N94',     #A J L N 4 9
 	'LM4-6AM-RKV',     #A K L M R V 4 6
 	'7A4-VM3-K67',     #A K M V 3 4 6 7
+	'9LR-AX9-AAN',     #A L N R X 9
 	'VN7-V6L-AL7',     #A L N V 6 7
 
 	'MHC-NDT-RFR',     #C D F H M N R T
@@ -56,11 +61,13 @@ valid_codes = [
 
 	'J99-H4J-DFT',     #D F H J T 4 9
 	'HD4-P43-RXP',     #D G H P R X 3 4
-	'JTX-YD3-9TX',     #D J X T Y 3 9
+	'4DJ-K7H-9L7',     #D H J K L 4 7 9
 	'PKP-HPX-RD3',     #D H K P R X 3
 	'YD4-YYN-DHY',     #D H N Y 4
+	'V7K-3J3-P4D',     #D J K P V 3 4 7
+	'JTX-YD3-9TX',     #D J X T Y 3 9
 	'6K6-V4D-VK6',     #D K V 4 6
-
+	'L6D-4VT-7XY',     #D L T V X Y 4 6 7
 	'NFN-LVH-4RG',     #F G H L N V R 4
 	'FFP-FXG-9L4',     #F G L P X 4 9
 	'G7T-FNV-7NR',     #F G N R T V 7
@@ -77,16 +84,6 @@ valid_codes = [
 	'7PX-JLM-74R',     #J L M P R X 4 7
 
 	'Y43-YKR-KVV'      #K R V Y 3 4
-	'''
-	'4DJ-K7H-9L7'      #D H J K L 4 7 9
-	'V7K-3J3-P4D'      #D J K P V 3 4 7
-	'AMP-TTM-LAF'      #A F L M P T
-	'7TH-VFA-LN6'      #A F H L N T V 6 7
-	'L6D-4VT-7XY'      #D L T V X Y 4 6 7
-	'7DL-9TN-A7V'      #A D L N T V 7 9
-	'JKC-AGX-7JK'      #A C G J K X 7
-	'9LR-AX9-AAN'      #A L N R X 9
-	'''
 ]
 
 numbers = ['3','4','6','7','9'] # 3 4 7 - put acceptable numbers here
