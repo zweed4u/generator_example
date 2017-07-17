@@ -77,6 +77,16 @@ valid_codes = [
 	'7PX-JLM-74R',     #J L M P R X 4 7
 
 	'Y43-YKR-KVV'      #K R V Y 3 4
+	'''
+	'4DJ-K7H-9L7'      #D H J K L 4 7 9
+	'V7K-3J3-P4D'      #D J K P V 3 4 7
+	'AMP-TTM-LAF'      #A F L M P T
+	'7TH-VFA-LN6'      #A F H L N T V 6 7
+	'L6D-4VT-7XY'      #D L T V X Y 4 6 7
+	'7DL-9TN-A7V'      #A D L N T V 7 9
+	'JKC-AGX-7JK'      #A C G J K X 7
+	'9LR-AX9-AAN'      #A L N R X 9
+	'''
 ]
 
 numbers = ['3','4','6','7','9'] # 3 4 7 - put acceptable numbers here
