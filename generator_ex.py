@@ -32,6 +32,7 @@ valid_codes = [
 	'FAM-MYJ-XTG',     #A F G J M T X Y
 	'7TH-VFA-LN6',     #A F H L N T V 6 7
 	'AMP-TTM-LAF',     #A F L M P T
+	'7FN-T7V-3LA',     #A F L N T V 3 7
 	'6FY-L7A-FRX',     #A F L R X Y 6 7 
 	'GAN-LYJ-TJG',     #A G J L N T Y
 	'MTT-AA4-RGY',     #A G M R T Y 4
@@ -68,9 +69,11 @@ valid_codes = [
 	'JTX-YD3-9TX',     #D J X T Y 3 9
 	'6K6-V4D-VK6',     #D K V 4 6
 	'L6D-4VT-7XY',     #D L T V X Y 4 6 7
+
 	'NFN-LVH-4RG',     #F G H L N V R 4
 	'FFP-FXG-9L4',     #F G L P X 4 9
 	'G7T-FNV-7NR',     #F G N R T V 7
+	'YLH-FN6-4LJ',     #F H J L N Y 4 6
 	'79Y-VJF-NF3',     #F J N V Y 3 7 9
 	'FTF-L73-TYM',     #F L M T Y 3 7
 
@@ -83,6 +86,7 @@ valid_codes = [
 
 	'7PX-JLM-74R',     #J L M P R X 4 7
 
+	'VTY-9NK-LVM',     #K L M N T V Y 9
 	'Y43-YKR-KVV'      #K R V Y 3 4
 ]
 
